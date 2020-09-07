@@ -1,5 +1,5 @@
-var CelsiusToken = artifacts.require("celsius-token");
+var CelsiusToken = artifacts.require("CelsiusToken");
 
 module.exports = function(deployer) {
-  deployer.deploy(CelsiusToken);
+  deployer.deploy(CelsiusToken(45000000000));
 };
