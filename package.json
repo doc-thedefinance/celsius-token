@@ -1,0 +1,11 @@
+{
+  "name": "celsius-token",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/doc-thedefinance/celsius-token.git",
+  "author": "dc <dikx@netcabo.pt>",
+  "license": "MIT",
+  "dependencies": {
+    "truffle": "^5.1.43"
+  }
+}
