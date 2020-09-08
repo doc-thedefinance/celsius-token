@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/doc-thedefinance/celsius-token.git",
-  "author": "dc <dikx@netcabo.pt>",
+  "author": "dc",
   "license": "MIT",
   "dependencies": {
+    "@truffle/hdwallet-provider": "^1.0.43",
+    "dotenv": "^8.2.0",
     "truffle": "^5.1.43"
   }
 }

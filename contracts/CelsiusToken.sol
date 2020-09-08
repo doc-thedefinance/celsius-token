@@ -168,7 +168,8 @@ contract AbstractToken is Token, SafeMath {
   /**
    * Create new Abstract Token contract.
    */
-  function AbstractToken () public {
+
+  constructor() public{
     // Do nothing
   }
 
@@ -301,11 +302,13 @@ contract CelsiusToken is AbstractToken {
    *
    * @param _tokenCount number of tokens to issue and give to msg.sender
    */
-  function CelsiusToken (uint256 _tokenCount) public {
+
+   constructor(uint256 _tokenCount) public{
     owner = msg.sender;
     tokenCount = _tokenCount;
     accounts [msg.sender] = _tokenCount;
-  }
+   }
+
 
   /**
    * Get total number of tokens in circulation.
