@@ -14,7 +14,7 @@ module.exports = {
     // network_id: identifier for network based on ethereum blockchain. Find out more at https://github.com/ethereumbook/ethereumbook/issues/110
     // gas: gas limit
     // gasPrice: gas price in gwei
-    ropsten: {
+    test: {
       provider: () => new HDWalletProvider(process.env.MNENOMIC, "https://ropsten.infura.io/v3/" + process.env.INFURA_API_KEY),
       network_id: 3,
       gas: 2600000,
