@@ -2,7 +2,6 @@ const HDWalletProvider = require("@truffle/hdwallet-provider");
 
 require('dotenv').config()  // Store environment-specific variable from '.env' to process.env
 
-console.log("here => "+ process.env.MNENOMIC);
 module.exports = {
   networks: {
     development: {
